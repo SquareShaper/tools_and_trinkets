@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "tools_and_trinkets",
+	"version": "${version}",
+	"name": "Tools and Trinkets",
+	"description": "This mod adds some random tools and trinkets that I want to have in Minecraft",
+	"authors": [
+		"SquareShaper"
+	],
+	"contact": {
+		"sources": "https://github.com/SquareShaper/weapon-randomizer-challenge"
+	},
+	"license": "<MIT>",
+	"icon": "assets/tools_and_trinkets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.squareshaper.tools_and_trinkets.ToolsAndTrinkets"
+		],
+		"fabric-datagen": [
+			"net.squareshaper.tools_and_trinkets.ToolsAndTrinketsDataGenerator"
+		],
+		"client": [
+			"net.squareshaper.tools_and_trinkets.ToolsAndTrinketsClient"
+		]
+	},
+	"mixins": [
+		"tools_and_trinkets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
