@@ -20,5 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.FENDORINE_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FENDORINE_PEARL, Models.GENERATED);
     }
 }

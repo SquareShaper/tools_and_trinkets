@@ -1,8 +1,10 @@
 {
   "required": true,
-  "package": "net.squareshaper.weapon_randomizer_challenge.mixin",
+  "package": "net.squareshaper.tools_and_trinkets.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "EnderPearlEntityMixin",
+    "ItemEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
