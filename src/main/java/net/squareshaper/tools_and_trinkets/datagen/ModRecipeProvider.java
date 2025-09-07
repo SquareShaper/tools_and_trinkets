@@ -15,11 +15,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(RecipeExporter re) {
-
     }
 
     @Override
     public String getName() {
-        return "WRC Recipe provider";
+        return "TAT Recipe provider";
     }
 }
